@@ -75,13 +75,13 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <snapshot.repository-id>sonatype-nexus-snapshots</snapshot.repository-id>
-    <snapshot.repository-name>Sonatype Snapshots</snapshot.repository-name>
-    <snapshot.repository-url>https://oss.sonatype.org/content/repositories/snapshots/</snapshot.repository-url>
+    <snapshot.repository-id>zss-snapshots</snapshot.repository-id>
+    <snapshot.repository-name>Z-SmartSystems Snapshots</snapshot.repository-name>
+    <snapshot.repository-url>http://repo.cd-jackson.com/repository/maven-snapshots/</snapshot.repository-url>
 
-    <release.repository-id>sonatype-nexus-staging</release.repository-id>
-    <release.repository-name>Sonatype Central Synchronisation</release.repository-name>
-    <release.repository-url>https://oss.sonatype.org/service/local/staging/deploy/maven2</release.repository-url>
+    <release.repository-id>zss-releases</release.repository-id>
+    <release.repository-name>Z-SmartSystems Releases</release.repository-name>
+    <release.repository-url>http://repo.cd-jackson.com/repository/maven-releases/</release.repository-url>
 
     <site.repository-id>github.com</site.repository-id>
     <site.repository-name>GitHub Pages</site.repository-name>
