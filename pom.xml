@@ -15,15 +15,14 @@
   <!-- Information about project -->
   <description>Parent project for Java software components developed by OpenSmartHouse / Z-Smart Systems.</description>
 
-  <url>http://zsmartsystems.com</url>
+  <url>http://opeensmarthouse.org</url>
   <inceptionYear>2020</inceptionYear>
 
-  <!-- Issue tracker
+  <!-- Issue tracker -->
   <issueManagement>
-    <system>Gitlab</system>
-    <url>https://github.com/ConnectorIO/maven-parent</url>
+    <system>GitHub</system>
+    <url>https://github.com/opensmarthouse/opensmarthouse-parent/issues</url>
   </issueManagement>
--->
 
   <organization>
     <name>Z-Smart Systems Limited</name>
@@ -39,9 +38,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:https://git.zsmartsystems.com/opensmarthouse/opensmarthouse-parent.git</connection>
-    <developerConnection>scm:git:https://git.zsmartsystems.com/opensmarthouse/opensmarthouse-parent.git</developerConnection>
-    <url>https://git.zsmartsystems.com/opensmarthouse/opensmarthouse-parent</url>
+    <connection>scm:git:https://github.com/opensmarthouse/opensmarthouse-parent.git</connection>
+    <developerConnection>scm:git:https://github.com/opensmarthouse/opensmarthouse-parent.git</developerConnection>
+    <url>https://github.com/opensmarthouse/opensmarthouse-parent</url>
   </scm>
 
   <!-- properties -->
@@ -90,24 +89,20 @@
 
     <karaf.compile.version>4.2.9</karaf.compile.version>
     <karaf.tooling.version>4.2.9</karaf.tooling.version>
-    
+
     <slf4j.version>1.7.21</slf4j.version>
 
     <!-- Build and raporting plugin properties -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <snapshot.repository-id>zss-snapshots</snapshot.repository-id>
-    <snapshot.repository-name>Z-SmartSystems Snapshots</snapshot.repository-name>
-    <snapshot.repository-url>http://repo.cd-jackson.com/repository/maven-snapshots/</snapshot.repository-url>
+    <snapshot.repository-id>bintray-snapshots</snapshot.repository-id>
+    <snapshot.repository-name>Bintray Snapshots</snapshot.repository-name>
+    <snapshot.repository-url>https://oss.jfrog.org/artifactory/oss-snapshot-local/</snapshot.repository-url>
 
-    <release.repository-id>zss-releases</release.repository-id>
-    <release.repository-name>Z-SmartSystems Releases</release.repository-name>
-    <release.repository-url>http://repo.cd-jackson.com/repository/maven-releases/</release.repository-url>
-
-    <site.repository-id>github.com</site.repository-id>
-    <site.repository-name>GitHub Pages</site.repository-name>
-    <site.repository-url>scm:git:git@github.com:X/Y.github.io.git</site.repository-url>
+    <release.repository-id>bintray-releases</release.repository-id>
+    <release.repository-name>Bintray Releases</release.repository-name>
+    <release.repository-url>https://api.bintray.com/maven/opensmarthouse/org.opensmarthouse/maven/;publish=1</release.repository-url>
   </properties>
 
   <!-- Repositories -->
@@ -122,11 +117,6 @@
       <url>${snapshot.repository-url}</url>
       <name>${snapshot.repository-name}</name>
     </snapshotRepository>
-    <site>
-      <id>${site.repository-id}</id>
-      <url>${site.repository-url}</url>
-      <name>${site.repository-name}</name>
-    </site>
   </distributionManagement>
 
   <developers>
