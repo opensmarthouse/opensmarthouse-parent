@@ -97,13 +97,13 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <snapshot.repository-id>bintray-snapshots</snapshot.repository-id>
-    <snapshot.repository-name>Bintray Snapshots</snapshot.repository-name>
-    <snapshot.repository-url>https://oss.jfrog.org/artifactory/oss-snapshot-local/</snapshot.repository-url>
+    <snapshot.repository-id>opensmarthouse-sonatype-snapshot</snapshot.repository-id>
+    <snapshot.repository-name>OpenSmartHouse Snapshots (Sonatype)</snapshot.repository-name>
+    <snapshot.repository-url>https://oss.sonatype.org/content/repositories/snapshots</snapshot.repository-url>
 
-    <release.repository-id>bintray-releases</release.repository-id>
-    <release.repository-name>Bintray Releases</release.repository-name>
-    <release.repository-url>https://api.bintray.com/maven/opensmarthouse/maven/opensmarthouse-parent/;publish=1</release.repository-url>
+    <release.repository-id>opensmarthouse-sonatype-release</release.repository-id>
+    <release.repository-name>OpenSmartHouse Release (Sonatype)</release.repository-name>
+    <release.repository-url> https://oss.sonatype.org/service/local/staging/deploy/maven2</release.repository-url>
   </properties>
 
   <!-- Repositories -->
@@ -114,6 +114,7 @@
       <name>${release.repository-name}</name>
     </repository>
     <snapshotRepository>
+      <uniqueVersion>false</uniqueVersion>
       <id>${snapshot.repository-id}</id>
       <url>${snapshot.repository-url}</url>
       <name>${snapshot.repository-name}</name>
