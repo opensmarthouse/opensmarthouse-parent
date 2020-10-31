@@ -7,7 +7,7 @@
   <!-- Project identification -->
   <groupId>org.opensmarthouse</groupId>
   <artifactId>parent</artifactId>
-  <version>0.9.1-SNAPSHOT</version>
+  <version>0.9.1</version>
 
   <name>OpenSmartHouse Parent</name>
   <packaging>pom</packaging>
@@ -41,7 +41,7 @@
     <connection>scm:git:https://github.com/opensmarthouse/opensmarthouse-parent.git</connection>
     <developerConnection>scm:git:https://github.com/opensmarthouse/opensmarthouse-parent.git</developerConnection>
     <url>https://github.com/opensmarthouse/opensmarthouse-parent</url>
-    <tag>HEAD</tag>
+    <tag>opensmarthouse-parent-0.9.1</tag>
   </scm>
 
   <!-- properties -->
