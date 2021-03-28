@@ -46,7 +46,7 @@
 
   <!-- properties -->
   <properties>
-    <license.year>2020</license.year>
+    <license.year>2021</license.year>
 
     <!-- This is version tag for published/public openhab packages -->
     <openhab-api.version>3.0.0-SNAPSHOT</openhab-api.version>
