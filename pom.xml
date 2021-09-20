@@ -86,12 +86,12 @@
     <compiler.source>11</compiler.source>
     <compiler.target>11</compiler.target>
 
-    <bnd.version>4.3.0</bnd.version>
+    <bnd.version>5.3.0</bnd.version>
 
-    <karaf.compile.version>4.2.9</karaf.compile.version>
-    <karaf.tooling.version>4.2.9</karaf.tooling.version>
+    <karaf.compile.version>4.3.0</karaf.compile.version>
+    <karaf.tooling.version>4.3.3</karaf.tooling.version>
 
-    <slf4j.version>1.7.21</slf4j.version>
+    <slf4j.version>1.7.32</slf4j.version>
 
     <!-- Build and raporting plugin properties -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
