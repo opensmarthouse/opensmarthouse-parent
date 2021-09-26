@@ -7,7 +7,7 @@
   <!-- Project identification -->
   <groupId>org.opensmarthouse</groupId>
   <artifactId>parent</artifactId>
-  <version>0.9.3-SNAPSHOT</version>
+  <version>0.10.0-SNAPSHOT</version>
 
   <name>OpenSmartHouse Parent</name>
   <packaging>pom</packaging>
@@ -49,7 +49,7 @@
     <license.year>2021</license.year>
 
     <!-- This is version tag for published/public openhab packages -->
-    <openhab-api.version>3.0.0-SNAPSHOT</openhab-api.version>
+    <openhab-api.version>3.1.0</openhab-api.version>
     <opensmarthouse-api.version>${project.version}</opensmarthouse-api.version>
 
     <!-- Maven plugins -->
@@ -88,8 +88,8 @@
 
     <bnd.version>4.3.0</bnd.version>
 
-    <karaf.compile.version>4.2.9</karaf.compile.version>
-    <karaf.tooling.version>4.2.9</karaf.tooling.version>
+    <karaf.compile.version>4.3.3</karaf.compile.version>
+    <karaf.tooling.version>4.3.3</karaf.tooling.version>
 
     <slf4j.version>1.7.21</slf4j.version>
 
